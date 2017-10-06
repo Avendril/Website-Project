@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Mirrored from historicaleuropeanmartialarts.000webhostapp.com/pages/feedback.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 06 Oct 2017 15:02:18 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<title>Health and Safety - Historical European Martial Arts</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="../layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+<script> 
+function feedbacktest()
+{
+	var name = document.forms["contact_form"]["name"].value;
+	var email = document.forms["contact_form"]["email"].value;
+	
+	if(name == null || name == ""|| email == null || email == "" || document.getElementById("dropdown").value == "")
+	{
+		alert("Please fill in the details");
+		return false;
+	}
+	else
+	{
+		if(document.getElementById("dropdown").value == "" || document.getElementById("dropdown2").value == "")
+		{
+			alert("Select one of two choices");
+			return false;
+		}
+		else
+		{
+			window.open("Thank%20you%20for%20submitting%20your%20feedback.html");
+			return true;
+		}
+	}	
+}
+</script>
+</head>
+<body id="top">
+<div class="wrapper row2">
+  <nav id="mainav" class="hoc clear">
+    <ul class="clear">
+      <li><a href="../index-2.html">Home</a></li>
+      <li><a class="drop" href="#">More</a>
+        <ul>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="history.html">History</a></li>
+          <li><a href="Requirements.html">Requirements</a></li>
+          <li><a href="health.html">Health and Safety</a></li>
+          <li><a href="Locations.html">Find Us</a></li>
+        </ul>
+      </li>
+      <li><a href="practice.html">Practice Times</a></li>
+      <li><a href="feedback.html">Feedback</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </nav>
+</div>
+<div class="wrapper row3">
+  <div id="breadcrumb" class="hoc clear"> 
+    <ul>
+      <li><a href="../index-2.html">Home</a></li>
+      <li><a href="feedback.html">Feedbaack</a></li>
+    </ul>
+  </div>
+</div>
+<div class="wrapper row3">
+  <main class="hoc container clear">
+    <div class="sidebar one_quarter first"> 
+      <div class="sdb_holder">
+		<h6> Feedback Form </h6>
+        <form name="contact_form" action="https://historicaleuropeanmartialarts.000webhostapp.com/feedback.php" onsubmit="return feedbacktest()" method="POST">
+			<fieldset>
+			<legend>Feedback form:</legend>
+				<p id="info">Full Name:<br>     <input type="text" name="name" value=""> </p>
+				<p id="info">Email Address:<br> <input type="text" name="email" value=""> </p>
+				<p id="info">Did you enjoy the website?<br></p>
+					<select id="dropdown2">
+						<option value="" disabled="disabled" selected="selected">Please Select your Option</option>
+						<option value="1">Yes</option>
+						<option value="2">No</option>
+					</select>
+				<p id="info">Comment:<br> <textarea rows="3" value="" name="comment"></textarea> </p>
+				<p id="info"><input type="submit" value="Yes"></p>
+			</fieldset>
+		</form>
+      </div>
+    </div>
+    <div class="content three_quarter">
+      <h1>Greeting, Please submit your feedback on the left</h1>
+      <img class="imgr borderedbox inspace-5" src="../images/demo/image1.jpg" alt="">
+	  <p>Thank you for your feedback, all feedback is taken into consideration and will be looked at and considered, thank you for your times. </p>
+	  <p>Our webdesigner really cares about what you think about the website, please submit any feedback you see right </p>
+      </div>
+    <div class="clear"></div>
+  </main>
+</div>
+<div class="wrapper row5">
+  <div id="copyright" class="hoc clear"> 
+    <p class="fl_left">Copyright &copy; 2015 - All Rights Reserved - <a href="#">www.HistoricalMartialArts.com</a></p>
+  </div>
+</div>
+<a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
+<script src="../layout/scripts/jquery.min.html"></script>
+<script src="../layout/scripts/jquery.backtotop.html"></script>
+<script src="../layout/scripts/jquery.mobilemenu.html"></script>
+<script src="../layout/scripts/jquery.placeholder.min.html"></script>
+<div style='text-align: right;position: fixed;z-index:9999999;bottom: 0; width: 100%;cursor: pointer;line-height: 0;'><a title="Hosted on free web hosting 000webhost.com. Host your own website for FREE." target="_blank" href="https://www.000webhost.com/?utm_source=000webhostapp&amp;utm_campaign=000_logo&amp;utm_medium=website_historicaleuropeanmartialarts&amp;utm_content=footer_img"><img src="../../cloud.githubusercontent.com/assets/23024110/20663010/9968df22-b55e-11e6-941d-edbc894c2b78.png"  alt="www.000webhost.com"></a></div></body>
+
+<!-- Mirrored from historicaleuropeanmartialarts.000webhostapp.com/pages/feedback.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 06 Oct 2017 15:02:18 GMT -->
+</html>
